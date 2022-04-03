@@ -1,6 +1,6 @@
 {
   "name": "@hashlips-lab/nft-erc721-collection-dapp",
-  "homepage": "https://dapp.geniusthrong.github.io/",
+  "homepage": "http://geniusthrong.com/dapp.geniusthrong.github.io/",
   "version": "2.1.0",
   "devDependencies": {
     "@babel/preset-react": "^7.0.0",
