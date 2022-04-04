@@ -1,6 +1,6 @@
 {
   "name": "@hashlips-lab/nft-erc721-collection-dapp",
-  "homepage": "http://geniusthrong.github.io/dapp.geniusthrong.github.io/",
+  "homepage": "http://geniusthrong.github.io/dapp.geniusthrong.github.io",
   "version": "2.1.0",
   "devDependencies": {
     "@babel/preset-react": "^7.0.0",
@@ -15,6 +15,7 @@
     "core-js": "^3.0.0",
     "ethers": "^5.5.3",
     "file-loader": "^6.0.0",
+    "gh-pages": "^3.2.3",
     "hardhat-typechain": "^0.3.5",
     "keccak256": "^1.0.6",
     "merkletreejs": "^0.2.27",
@@ -34,14 +35,11 @@
   "license": "UNLICENSED",
   "private": true,
   "scripts": {
-    "predeploy": "yarn run build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "dev-server": "encore dev-server",
     "dev": "encore dev",
     "watch": "encore dev --watch",
     "build": "encore production --progress"
-  },
-  "dependencies": {
-    "gh-pages": "^3.2.3"
   }
 }
